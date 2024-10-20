@@ -1,6 +1,5 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import { Hidden, IconButton } from '@mui/material';
 import './App.css';
 export default function Homepage() {
   return (
@@ -68,9 +67,9 @@ export default function Homepage() {
             <div className='text-center    w-40'>
 
             <div className='hover:rotate-45 transition-transform duration-300 w-20 h-20 ml-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-slate-300 hover:cursor-pointer '>
-                <a href='#' className=' '>
+                <Link to='/donate'>
                     <img src="https://www.lifeblood.com.au/sites/default/files/2021-12/bloodbag.svg" className='w-10'></img>
-                </a>
+                </Link>
             </div >
 
             <p>Need to donate?</p>

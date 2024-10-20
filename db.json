@@ -6,5 +6,13 @@
       "password": "hello"
     }
   ],
-  "donations": []
+  "donors": [
+    {
+      "id": "4ec0",
+      "name": "u2geidsc",
+      "email": "jegan.v.pillai@gmail.com",
+      "bloodType": "AB+",
+      "message": "fa"
+    }
+  ]
 }
