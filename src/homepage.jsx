@@ -37,12 +37,12 @@ export default function Homepage() {
             <div className='text-center    w-40'>
 
             <div className=' hover:rotate-45 transition-transform duration-300 w-20 h-20 ml-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-slate-300 hover:cursor-pointer '>
-                <a href='#' className=' '>
+                <Link to={"/eligibility-checker"}>
                     <img src="https://www.lifeblood.com.au/sites/default/files/2021-12/glass.svg" className='w-10'></img>
-                </a>
+                </Link>
             </div >
 
-            <p>Test</p>
+            <p>Eligibility</p>
             </div>
             <div className='text-center    w-40'>
 
@@ -57,12 +57,12 @@ export default function Homepage() {
             <div className='text-center    w-40'>
 
             <div className='hover:rotate-45 transition-transform duration-300  w-20 h-20 ml-10 rounded-full bg-gray-200 flex items-center justify-center hover:bg-slate-300 hover:cursor-pointer '>
-                <a href='#' className=' '>
+                <Link to={"/donation-history"}>
                     <img src="https://www.lifeblood.com.au/sites/default/files/2021-12/medicine.svg" className='w-10'></img>
-                </a>
+                </Link>
             </div >
 
-            <p>Medicines</p>
+            <p>Donation History</p>
             </div>
             <div className='text-center    w-40'>
 

@@ -4,15 +4,27 @@
       "id": "b6b4",
       "username": "nikhil@gmail.com",
       "password": "hello"
+    },
+    {
+      "id": "f80a",
+      "username": "Shaliq@gmail.com",
+      "password": "shaliq"
     }
   ],
   "donors": [
     {
-      "id": "4ec0",
-      "name": "u2geidsc",
-      "email": "jegan.v.pillai@gmail.com",
-      "bloodType": "AB+",
-      "message": "fa"
+      "id": "0077",
+      "name": "NIKHIL  V",
+      "email": "nikhilnitin3@gmai.com",
+      "bloodType": "O−",
+      "message": "First DOnation"
+    },
+    {
+      "id": "36bc",
+      "name": "Gubu",
+      "email": "727723eucs159@skcet.ac.in",
+      "bloodType": "O+",
+      "message": "Second donation"
     }
   ]
 }
